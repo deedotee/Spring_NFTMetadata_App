@@ -29,14 +29,14 @@ public class NFTController {
 	// ReadAll
 	@GetMapping("/readAll")
 	public List<NFTInstance> readAll() {
-		
+		return this.service.readAll();
 	}
 	
 	//ReadByID
 	@GetMapping("/readById/{id}")
 	public NFTInstance readById(@PathVariable int id) {
 			return this.service.readById(id);
-			
+	}	
 			
 	// POST - CREATE
 	@PostMapping("/create") // localhost:8080/create 
