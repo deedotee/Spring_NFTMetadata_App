@@ -4,9 +4,9 @@ The purpose of this starter project is the creation of a Springboot API able to 
 house metadata embedded in art non-fungible tokens (NFTs). 
 
 The project was inspired by artist Dmitri Cherniak, who produced a series of 1,000 
-generative art NFTs in a series called "Ringers", each of which contains abstract metadata loosely related to features of the artworks themselves. An example of one such work is below: 
+generative art NFTs in a series called "Ringers", each of which contains abstract metadata loosely related to features of the artworks themselves. More information on this artist can be found [here](https://www.proof.xyz/artist-spotlight-ringers-with-dmitri-cherniak/)
   
-Screenshots of Postman requests to the API can be found here:  
+Screenshots of Postman requests to the API can be found below:  
 ![create](/documentation/create_request.png)  
 ![read](/documentation/read_request.png)  
 ![put](/documentation/put_request.png)  
