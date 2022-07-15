@@ -10,7 +10,7 @@ Screenshots of Postman requests to the API can be found here:
 ![create](/documentation.create_request.png)  
 ![read](/documentation.read_request.png)  
 ![put](/documentation.put_request.png)  
-![delete](/documentation.delete_request.png). 
+![delete](/documentation.delete_request.png).  
 
 Screenshots of the database can be found here:  
 ![database](/documentation.database.png)  
@@ -24,5 +24,4 @@ o	Possible improvements for future revisions of the project.
 * More custom API reuqests to increase functionality available 
 * Increased test coverage 
 
-o	A link to the jira board summarising the work can be found here: 
-![image](https://user-images.githubusercontent.com/98108986/179214068-6223fc5e-2323-46d1-bade-608b01dbe54d.png)
+o	A link to the jira board summarising the work can be found [here](https://user-images.githubusercontent.com/98108986/179214068-6223fc5e-2323-46d1-bade-608b01dbe54d.png)
