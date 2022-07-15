@@ -15,7 +15,7 @@ import com.qa.springnftdata.entities.NFTInstance;
 import com.qa.springnftdata.service.NFTService;
 
 @RestController
-@RequestMapping
+//@RequestMapping
 public class NFTController {
 	
 	private NFTService service;

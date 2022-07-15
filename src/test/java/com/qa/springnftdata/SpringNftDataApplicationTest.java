@@ -1,13 +1,13 @@
-package com.qa.spring_nftmetadata_app;
+package com.qa.springnftdata;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class SpringNftMetadataAppApplicationTests {
+class SpringNftDataApplicationTest {
 
 	@Test
-	void contextLoads() {
+	void contextLoads() {	
 	}
 
 }

@@ -1,0 +1,1 @@
+INSERT INTO `nftinstance`(`name`, `body`, `size`, `peg_count`, `wrap_orientation`) VALUES ('Ringers#376','blue','Normal',9,'Balanced'); 

@@ -15,8 +15,8 @@ public class NFTInstance {
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private long id;
 	
-	@Column(name = "NFT Instance name", nullable = false, unique = true)
-	private String Name;
+	@Column(nullable = false, unique = true)
+	private String name;
 	
 	@Column(nullable = false)
 	private String body;
@@ -36,7 +36,7 @@ public class NFTInstance {
 	// No ID constructor 
 	public NFTInstance(String name, String body, String size, int pegCount, String wrapOrientation) {
 		super();
-		Name = name;
+		this.name = name;
 		this.body = body;
 		this.size = size;
 		this.pegCount = pegCount;
@@ -47,7 +47,7 @@ public class NFTInstance {
 	public NFTInstance(long id, String name, String body, String size, int pegCount, String wrapOrientation) {
 		super();
 		this.id = id;
-		Name = name;
+		this.name = name;
 		this.body = body;
 		this.size = size;
 		this.pegCount = pegCount;
@@ -63,11 +63,11 @@ public class NFTInstance {
 	}
 
 	public String getName() {
-		return Name;
+		return name;
 	}
 
 	public void setName(String name) {
-		Name = name;
+		this.name = name;
 	}
 
 	public String getBody() {
@@ -104,7 +104,7 @@ public class NFTInstance {
 
 	@Override
 	public int hashCode() {
-		return Objects.hash(Name, body, id, pegCount, size, wrapOrientation);
+		return Objects.hash(name, body, id, pegCount, size, wrapOrientation);
 	}
 
 	@Override
@@ -116,7 +116,7 @@ public class NFTInstance {
 		if (getClass() != obj.getClass())
 			return false;
 		NFTInstance other = (NFTInstance) obj;
-		return Objects.equals(Name, other.Name) && Objects.equals(body, other.body) && id == other.id
+		return Objects.equals(name, other.name) && Objects.equals(body, other.body) && id == other.id
 				&& pegCount == other.pegCount && Objects.equals(size, other.size)
 				&& Objects.equals(wrapOrientation, other.wrapOrientation);
 	}
